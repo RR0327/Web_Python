@@ -1,0 +1,124 @@
+### 1. **Django**
+
+* **Description**: A high-level web framework that encourages rapid development and clean, pragmatic design. It's a full-stack framework that provides everything you need to build a web application.
+* **Features**:
+
+  * ORM (Object-Relational Mapping) for database management
+  * Admin panel for easy backend management
+  * Built-in authentication system
+  * Built-in support for security (like SQL injection prevention)
+  * Routing and views
+* **Use case**: Large web applications, enterprise-level solutions, and complex web apps.
+
+### 2. **Flask**
+
+* **Description**: A lightweight web framework designed for simplicity and flexibility. It's considered a micro-framework because it doesn't include many of the features that Django does, so developers can add extensions as needed.
+* **Features**:
+
+  * Routing
+  * Templating (via Jinja2)
+  * Middleware and extensions for database integration, form handling, authentication, etc.
+  * Easy to learn and use
+* **Use case**: Small to medium-sized web applications, APIs, or applications that need customization.
+
+### 3. **FastAPI**
+
+* **Description**: A modern, fast (high-performance) web framework for building APIs with Python 3.6+ based on standard Python type hints. It is built on top of Starlette and Pydantic.
+* **Features**:
+
+  * Very fast (comparable to Node.js and Go)
+  * Data validation and serialization with Pydantic
+  * Asynchronous support with Python's `asyncio`
+  * Automatic generation of OpenAPI and Swagger documentation
+* **Use case**: APIs, especially when speed and async features are required.
+
+### 4. **Pyramid**
+
+* **Description**: A flexible web framework that allows developers to choose their components. Pyramid is less opinionated than Django and more powerful than Flask, offering a lot of flexibility.
+* **Features**:
+
+  * URL dispatch and templating
+  * Flexible security model
+  * Good for both simple and complex web applications
+* **Use case**: Projects that need flexibility, from small apps to large enterprise systems.
+
+### 5. **Tornado**
+
+* **Description**: A web framework and asynchronous networking library. It's designed to handle large numbers of simultaneous connections, which makes it suitable for real-time applications.
+* **Features**:
+
+  * Non-blocking I/O
+  * WebSockets support
+  * High-performance
+* **Use case**: Real-time applications, chat applications, WebSockets, long-polling systems.
+
+### 6. **Bottle**
+
+* **Description**: A lightweight micro-framework that's great for small applications and rapid prototyping. Like Flask, it has no dependencies and is very easy to use.
+* **Features**:
+
+  * Single-file application for simplicity
+  * Built-in HTTP server
+  * Template engine (Mako, Jinja2)
+* **Use case**: Small projects, microservices, prototyping.
+
+### 7. **CherryPy**
+
+* **Description**: An object-oriented web framework that allows for the creation of web applications in a very Pythonic way. It's known for its simplicity and ease of use.
+* **Features**:
+
+  * Built-in server
+  * WSGI-compliant
+  * Asynchronous support
+* **Use case**: Small to medium-sized applications that need a simple, flexible framework.
+
+### 8. **Web2py**
+
+* **Description**: A full-stack web framework that includes everything needed to build a web application: a web server, database, and a form-handling library.
+* **Features**:
+
+  * Built-in IDE for development
+  * Integrated ticketing system for debugging
+  * Support for multiple databases
+* **Use case**: Full-stack development with everything integrated.
+
+### 9. **Sanic**
+
+* **Description**: A web framework built for asynchronous request handling. Sanic is designed to be fast and provides async features out of the box.
+* **Features**:
+
+  * Asynchronous support for handling multiple requests
+  * WebSocket support
+  * Built-in testing tools
+* **Use case**: High-performance applications and APIs with async requirements.
+
+### 10. **Dash**
+
+* **Description**: A Python framework specifically designed for building analytical web applications. It integrates well with data science libraries such as Plotly, Pandas, and NumPy.
+* **Features**:
+
+  * Built on top of Flask, Plotly, and React
+  * Real-time updates
+  * Interactive data visualizations
+* **Use case**: Data dashboards, visualizations, and interactive apps.
+
+### 11. **Hug**
+
+* **Description**: A Python framework for creating APIs that focus on providing high performance and easy-to-use features.
+* **Features**:
+
+  * Easy API creation with automatic validation
+  * Supports asynchronous calls
+* **Use case**: Building high-performance APIs.
+
+---
+
+### Which one to choose?
+
+* **For large applications**: Django.
+* **For small projects or APIs**: Flask or FastAPI.
+* **For real-time applications**: Tornado or FastAPI.
+* **For data applications and dashboards**: Dash.
+* **For highly flexible projects**: Pyramid.
+
+Let me know if you want to dive deeper into any of these!
