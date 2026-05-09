@@ -111,9 +111,3 @@ def main(global_config, **settings):
 - **Response**: The response is sent back to the user (browser).
 
 ---
-
-### Next Step:
-
-Once you understand the architecture, we can move on to **setting up Pyramid** on your system and create a simple project to work with this cycle.
-
-Let me know if you'd like to continue with that, or if you want more details on any concept!
