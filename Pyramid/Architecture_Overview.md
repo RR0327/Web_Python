@@ -43,6 +43,8 @@ Pyramid is designed to be lightweight, flexible, and modular. The core of Pyrami
 
 ### The Request-Response Cycle in Pyramid:
 
+![Pyramid Request Response Cycle](Pyramid_Request_Response_Cycle.png)
+
 Here’s how the request-response cycle works in Pyramid:
 
 1. **User Makes a Request**:
