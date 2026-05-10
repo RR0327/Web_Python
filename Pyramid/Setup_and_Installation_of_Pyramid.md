@@ -196,3 +196,34 @@ Choose the interpreter from:
 .venv
 
 ```
+
+## Final Setup Summary
+
+Your setup flow is:
+
+```bash
+Install Python
+↓
+Create project folder
+↓
+Create virtual environment
+↓
+Activate virtual environment
+↓
+Install Pyramid
+↓
+Install Waitress
+↓
+Open project in VS Code
+```
+
+### Important Concept
+
+Bro, remember this clearly:
+
+```bash
+We do not install Pyramid globally.
+We install Pyramid inside a virtual environment.
+```
+
+Because every project may need different package versions.
