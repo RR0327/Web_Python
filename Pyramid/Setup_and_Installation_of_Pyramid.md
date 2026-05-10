@@ -30,3 +30,93 @@ Create Pyramid Project
 ↓
 Run on Browser
 ```
+
+### Step 1: Check Python
+
+Open PowerShell or VS Code terminal and type:
+
+```py
+python --version
+```
+
+or:
+
+```py
+py --version
+```
+
+You should see something like:
+
+```bash
+Python 3.13.x
+```
+
+Since you use Windows 11, py often works better than python.
+
+### Step 2: Create a Learning Folder
+
+Make one folder for Pyramid practice:
+
+```py
+mkdir pyramid_learning
+cd pyramid_learning
+```
+
+This folder will contain your Pyramid learning files.
+
+### Step 3: Create Virtual Environment
+
+A virtual environment means a **separate clean Python space** for this project.
+
+Command:
+
+```py
+py -m venv .venv
+```
+
+This creates a folder named:
+
+```py
+.venv
+```
+
+Meaning:
+
+```py
+pyramid_learning/
+└── .venv/
+```
+
+### Step 4: Activate Virtual Environment
+
+In PowerShell:
+
+```bash
+.\.venv\Scripts\Activate.ps1
+```
+
+After activation, you should see something like:
+
+```bash
+(.venv) PS C:\...\pyramid_learning>
+```
+
+That (.venv) means your virtual environment is active.
+
+If PowerShell blocks activation, run:
+
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Then try activation again.
+
+### Step 5: Upgrade pip
+
+After activating .venv, run:
+
+```py
+python -m pip install --upgrade pip setuptools wheel
+```
+
+This makes your package installer updated.
