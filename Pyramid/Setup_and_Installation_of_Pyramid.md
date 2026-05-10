@@ -120,3 +120,79 @@ python -m pip install --upgrade pip setuptools wheel
 ```
 
 This makes your package installer updated.
+
+### Step 6: Install Pyramid
+
+Now install Pyramid:
+
+```py
+pip install pyramid
+```
+
+To check whether Pyramid installed successfully:
+
+```py
+pip show pyramid
+```
+
+You should see package details like name, version, location, etc.
+
+### Step 7: Install Waitress
+
+Pyramid creates a WSGI web application, and a server is needed to run it locally. Waitress is commonly used for this.
+
+```py
+pip install waitress
+```
+
+Simple meaning:
+
+```bash
+Pyramid = Your web app framework
+Waitress = Runs your web app in the browser
+```
+
+### Step 8: Optional Project Generator
+
+Pyramid also supports creating a starter project using cookiecutter. The official Pyramid tutorial uses cookiecutter to generate a starter Pyramid project.
+
+Install it:
+
+```py
+pip install cookiecutter
+```
+
+Later, we can use it to generate a full Pyramid project structure.
+
+For now, just understand:
+
+```py
+cookiecutter = automatic project folder generator
+```
+
+Step 9: Open in VS Code
+
+Inside your folder:
+
+```bash
+code .
+```
+
+Then in VS Code:
+
+```bash
+Ctrl + Shift + P
+```
+
+Search:
+
+```bash
+Python: Select Interpreter
+```
+
+Choose the interpreter from:
+
+```bash
+.venv
+
+```
