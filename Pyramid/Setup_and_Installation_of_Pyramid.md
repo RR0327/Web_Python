@@ -6,7 +6,7 @@ Official Pyramid docs recommend Python 3.10 or greater, and Pyramid 2.1 is teste
 
 > What We Need First
 
-For Pyramid setup, you need:
+For **Pyramid** setup, you need:
 
 1. Python installed
 2. pip package manager
