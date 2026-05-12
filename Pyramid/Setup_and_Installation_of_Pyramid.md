@@ -109,7 +109,7 @@ If PowerShell blocks activation, run:
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-    Explaination:
+    Explanation:
 
 - **Set-ExecutionPolicy:** changes the PowerShell execution policy.
 - **-Scope CurrentUser:** applies only to your Windows user account, not the whole system.
@@ -128,6 +128,16 @@ After activating .venv, run:
 ```py
 python -m pip install --upgrade pip setuptools wheel
 ```
+
+    Explanation:
+
+- `python -m pip` runs pip through the current Python interpreter
+- `install --upgrade` means update packages to the newest version
+- `pip` is the package installer
+- `setuptools` helps build/install Python packages
+- `wheel` helps create/install wheel-format packages
+
+**In short:** it updates the core tools used to install and build Python packages.
 
 This makes your package installer updated.
 
