@@ -172,9 +172,53 @@ Pyramid = Your web app framework
 Waitress = Runs your web app in the browser
 ```
 
+`pip install waitress` installs **Waitress**, a pure-Python WSGI server.
+
+- **Why you need it:** Pyramid is a web framework, but it doesn’t serve requests by itself.
+- **What Waitress does:** It runs your Pyramid app locally (and can also be used in production for simple setups).
+- **Effect of the command:** downloads and installs the `waitress` package into your Python environment.
+
+---
+
+`waitress` is a **WSGI server**.
+
+## What WSGI means
+
+**WSGI** stands for **Web Server Gateway Interface**.  
+It’s a standard that lets Python web applications talk to web servers.
+
+In simple terms:
+
+- **Pyramid** builds the app
+- **Waitress** runs the app and handles web requests
+- **WSGI** is the interface between them
+
+## What a WSGI server does
+
+A WSGI server:
+
+- receives HTTP requests
+- passes them to your Python app
+- sends the app’s response back to the browser
+
+## Why Pyramid needs it
+
+Pyramid is a framework, not a server.  
+So it needs something like Waitress to actually listen on a port and serve pages locally.
+
+## Example
+
+```bash
+pip install waitress
+```
+
+Then you can run a Pyramid app with it instead of using the development server.
+
+---
+
 ### Step 8: Optional Project Generator
 
-Pyramid also supports creating a starter project using cookiecutter. The official Pyramid tutorial uses cookiecutter to generate a starter Pyramid project.
+Pyramid also supports creating a starter project using `cookiecutter`. The official Pyramid tutorial uses cookiecutter to generate a starter Pyramid project.
 
 Install it:
 
@@ -190,7 +234,47 @@ For now, just understand:
 cookiecutter = automatic project folder generator
 ```
 
-Step 9: Open in VS Code
+---
+
+`pip install cookiecutter` installs **Cookiecutter**, a tool for creating project templates.
+
+## What it does
+
+`Cookiecutter` lets you generate new projects from a template structure, for example:
+
+- Python packages
+- web apps
+- docs sites
+- CLI tools
+
+## How it works
+
+You give it a template, and it copies that template into a new project, filling in details like:
+
+- project name
+- author
+- package name
+- description
+
+## In short
+
+It’s a **project `scaffolding` tool** that helps you start new projects quickly and consistently.
+
+**`Scaffolding`** means **setting up the basic structure of a project** so you can start working faster.
+
+In programming, it usually refers to:
+
+- creating folders and files
+- adding starter code
+- preparing configuration and templates
+
+For example, a scaffolding tool like **`Cookiecutter`** can create a new project with the usual structure already in place.
+
+In short: **scaffolding = project skeleton / starter framework**.
+
+---
+
+### Step 9: Open in VS Code
 
 Inside your folder:
 
