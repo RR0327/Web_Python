@@ -109,6 +109,16 @@ If PowerShell blocks activation, run:
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
+    Explaination:
+
+- **Set-ExecutionPolicy:** changes the PowerShell execution policy.
+- **-Scope CurrentUser:** applies only to your Windows user account, not the whole system.
+- **-ExecutionPolicy RemoteSigned:** allows:
+  - local scripts to run
+  - downloaded scripts only if they’re digitally signed
+
+- _In short:_ it makes PowerShell more permissive for you personally, while still blocking unsigned scripts from the internet.
+
 Then try activation again.
 
 ### Step 5: Upgrade pip
