@@ -331,3 +331,18 @@ We install Pyramid inside a virtual environment.
 ```
 
 Because every project may need different package versions.
+
+> Our Next Learning Step
+
+After setup, the next step should be:
+
+**Creating Our First Minimal Pyramid App**
+
+But before that, your setup should be clear.
+The main things you need to understand now are:
+
+- `Python` runs the project
+- `Virtual environment` keeps the project clean
+- `Pyramid` handles web requests
+- `Waitress` runs the web app locally
+- `Browser` shows the result
