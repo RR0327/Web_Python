@@ -1,4 +1,4 @@
-Yes bro, now we start **Database Integration in Pyramid**.
+## Database Integration: Learn how to integrate a database with Pyramid for persistence.
 
 This means:
 
