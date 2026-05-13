@@ -1,4 +1,4 @@
-## Creating Routes and Views: Understand how routes and views work in Pyramid.
+# Creating Routes and Views: Understand how routes and views work in Pyramid.
 
 ## 1. What is a Route?
 
