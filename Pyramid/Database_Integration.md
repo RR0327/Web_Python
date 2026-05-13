@@ -1,4 +1,4 @@
-# Database Integration: Learn how to integrate a database with Pyramid for persistence.
+# Database Integration: Learn how to integrate a database with Pyramid for persistence (স্থায়িত্ব).
 
 This means:
 
@@ -6,13 +6,13 @@ This means:
 Pyramid app + Database = Data can be saved permanently
 ```
 
-Without database:
+> Without database:
 
 ```text
 User writes data → App closes → Data lost
 ```
 
-With database:
+> With database:
 
 ```text
 User writes data → Data saved in database → Can be used later
