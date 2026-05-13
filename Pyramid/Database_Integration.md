@@ -1,4 +1,4 @@
-## Database Integration: Learn how to integrate a database with Pyramid for persistence.
+# Database Integration: Learn how to integrate a database with Pyramid for persistence.
 
 This means:
 
@@ -20,7 +20,7 @@ User writes data → Data saved in database → Can be used later
 
 ---
 
-### 1. Why Database is Needed in Pyramid?
+## 1. Why Database is Needed in Pyramid?
 
 A real web app needs to store data like:
 
@@ -47,7 +47,7 @@ That is called **persistence**.
 
 ---
 
-### 2. What Pyramid Uses for Database?
+## 2. What Pyramid Uses for Database?
 
 Pyramid itself does **not force one database system**.
 
@@ -70,7 +70,7 @@ The Pyramid community strongly supports **SQLAlchemy** as the common ORM/databas
 
 ---
 
-### 3. What is SQLAlchemy?
+## 3. What is SQLAlchemy?
 
 SQLAlchemy is a Python library used to connect Python code with a database.
 
@@ -99,7 +99,7 @@ This style is called **ORM**.
 
 ---
 
-### 4. What is ORM?
+## 4. What is ORM?
 
 ORM means:
 
@@ -128,7 +128,7 @@ So ORM helps you think in Python instead of only SQL.
 
 ---
 
-### 5. Pyramid Database Flow
+## 5. Pyramid Database Flow
 
 Here is the main working flow:
 
@@ -159,11 +159,11 @@ Database → SQLAlchemy → View → Response → Browser
 
 ---
 
-### 6. Main Parts of Database Integration
+## 6. Main Parts of Database Integration
 
 To connect a database with Pyramid, you mainly need these parts:
 
-## A. Database
+### A. Database
 
 This is where data is stored.
 
@@ -186,7 +186,7 @@ Because it is simple and does not need a separate database server.
 
 ---
 
-## B. Model
+### B. Model
 
 A **model** represents your data structure.
 
@@ -216,7 +216,7 @@ This model becomes a table in the database.
 
 ---
 
-## C. Engine
+### C. Engine
 
 The **engine** is the connection system between SQLAlchemy and the database.
 
@@ -238,7 +238,7 @@ Data is read or written
 
 ---
 
-## D. Session
+### D. Session
 
 A **session** is used to perform database operations.
 
@@ -266,7 +266,7 @@ Then save/commit them to database
 
 ---
 
-## E. Transaction
+### E. Transaction
 
 A **transaction** means a safe group of database operations.
 
@@ -294,7 +294,7 @@ Pyramid has transaction-management support, which is useful when coordinating da
 
 ---
 
-### 7. Database Integration Architecture
+## 7. Database Integration Architecture
 
 ```text
               User / Browser
@@ -332,7 +332,7 @@ Browser
 
 ---
 
-### 8. Example Scenario: Student Management App
+## 8. Example Scenario: Student Management App
 
 Suppose we build a small student app.
 
@@ -392,7 +392,7 @@ HTML response
 
 ---
 
-### 9. CRUD Operations
+## 9. CRUD Operations
 
 Most database apps use CRUD.
 
@@ -428,7 +428,7 @@ Task management CRUD
 
 ---
 
-### 10. Pyramid + Database Folder Idea
+## 10. Pyramid + Database Folder Idea
 
 A Pyramid project with database may look like this:
 
@@ -460,7 +460,7 @@ templates/  → HTML pages
 
 ---
 
-### 11. Important Pyramid Style
+## 11. Important Pyramid Style
 
 Pyramid is flexible.
 
@@ -480,7 +480,7 @@ This is why Pyramid is good for both small and large projects.
 
 ---
 
-### 12. Modern Note About Project Generator
+## 12. Modern Note About Project Generator
 
 Some older Pyramid tutorials mention older cookiecutter templates like `pyramid-cookiecutter-alchemy`, but Pyramid’s latest glossary notes those older alchemy/ZODB cookiecutters are deprecated and recommends `pyramid-cookiecutter-starter` going forward. ([Pylons Project Documentation][4])
 
@@ -498,7 +498,7 @@ Pyramid + SQLAlchemy + PostgreSQL
 
 ---
 
-### 13. Super Simple Summary
+## 13. Super Simple Summary
 
 ```text
 Pyramid handles the web request.
@@ -516,7 +516,7 @@ In Pyramid, the view talks to the model through SQLAlchemy, and SQLAlchemy talks
 
 ---
 
-# Best Flow to Remember
+### Best Flow to Remember
 
 ```text
 Request
