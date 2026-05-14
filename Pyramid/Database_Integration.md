@@ -53,9 +53,11 @@ Pyramid itself does **not force one database system**.
 
 This is one big difference from Django.
 
-In Django:
+Means :
 
-```text
+> In **Django**:
+
+```bash
 Django has its own built-in ORM style.
 ```
 
