@@ -2,7 +2,7 @@
 
 ## Authentication and Authorization in Pyramid
 
-Pyramid security has two main ideas:
+Pyramid security has **two** main ideas:
 
 ```text
 Authentication = Who are you?
