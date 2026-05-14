@@ -99,6 +99,18 @@ Student
 
 This style is called **ORM**.
 
+For more understanding is SQLAlchemy:
+
+([SQLAlchemy - The Database Toolkit for Python][5])
+
+([SQLAlchemy - Wikipedia][6])
+
+([SQLAlchemy-Introduction - Geeksforgeeks][7])
+
+([SQLAlchemy - EDX][8])
+
+([What is SQLAlchemy][9])
+
 ---
 
 ## 4. What is ORM?
@@ -551,3 +563,8 @@ Student Management App
 [2]: https://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/wiki2/basiclayout.html?utm_source=chatgpt.com "Basic Layout — The Pyramid Web Framework v2.1"
 [3]: https://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/narr/introduction.html?utm_source=chatgpt.com "Pyramid Introduction"
 [4]: https://docs.pylonsproject.org/projects/pyramid/en/latest/glossary.html?utm_source=chatgpt.com "Glossary — The Pyramid Web Framework v2.1"
+[5]: https://share.google/cbsLDjZ4AtB40uRCH "SQLAlchemy - The Database Toolkit for Python"
+[6]: https://en.wikipedia.org/wiki/SQLAlchemy "SQLAlchemy - Wikipedia"
+[7]: https://www.geeksforgeeks.org/python/sqlalchemy-introduction/ "SQLAlchemy-Introduction - Geeksforgeeks"
+[8]: https://www.edx.org/learn/sqlalchemy "SQLAlchemy - EDX"
+[9]: https://www.youtube.com/shorts/1kO0v-jvjgg "What is SQLAlchemy"
