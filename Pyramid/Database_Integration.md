@@ -215,6 +215,8 @@ It means: **a user request goes from browser to database and then the result goe
 
 ## 6. Main Parts of Database Integration
 
+![MAIN PARTS OF DATABASE INTEGRATION](Main_parts_of_db_integration.png)
+
 To connect a database with Pyramid, you mainly need these parts:
 
 ### A. Database
@@ -416,10 +418,10 @@ Give me all students
 
 SQLAlchemy gets data from database:
 
-```text
-id | name  | department
-1  | Rakib | CSE
-2  | Hasan | BBA
+```bash
+id| name  | department
+1 | Rakib | CSE
+2 | Hasan | BBA
 ```
 
 Then Pyramid sends response:
@@ -448,11 +450,11 @@ HTML response
 
 ## 9. CRUD Operations
 
-Most database apps use CRUD.
+Most database apps use **CRUD**.
 
-CRUD means:
+**CRUD** means:
 
-```text
+```bash
 C = Create
 R = Read
 U = Update
@@ -461,7 +463,7 @@ D = Delete
 
 Example with student data:
 
-```text
+```bash
 Create → Add a new student
 Read   → Show student list
 Update → Edit student information
@@ -588,6 +590,7 @@ Database
 Response
 ```
 
+<!--
 For your learning path, the next practical step should be:
 
 ```text
@@ -596,8 +599,7 @@ Student Management App
 - Add student
 - Show students
 - Edit student
-- Delete student
-```
+- Delete student -->
 
 [1]: https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/databases.html?utm_source=chatgpt.com "19: Databases Using SQLAlchemy — The Pyramid Web ..."
 [2]: https://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/wiki2/basiclayout.html?utm_source=chatgpt.com "Basic Layout — The Pyramid Web Framework v2.1"
