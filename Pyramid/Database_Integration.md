@@ -154,6 +154,8 @@ For more understanding about ORM:
 
 ## 5. Pyramid Database Flow
 
+![Pyramid Request/Response Flow](Pyramid_request_response_flow.png)
+
 Here is the main working flow:
 
 ```text
@@ -180,6 +182,34 @@ More simply:
 Browser → Route → View → SQLAlchemy → Database
 Database → SQLAlchemy → View → Response → Browser
 ```
+
+> Explanation:
+
+That’s the **request/response flow** in a web app.
+
+## Forward path
+
+**Browser → Route → View → SQLAlchemy → Database**
+
+- **Browser**: user sends a request
+- **Route**: URL is matched to a handler
+- **View**: code runs for that page/action
+- **SQLAlchemy**: ORM layer talks to the database
+- **Database**: stores or returns data
+
+## Return path
+
+**Database → SQLAlchemy → View → Response → Browser**
+
+- data comes back from the **Database**
+- **SQLAlchemy** converts it into Python objects
+- **View** prepares the result
+- **Response** is built
+- **Browser** displays it
+
+## In short
+
+It means: **a user request goes from browser to database and then the result goes back to the browser**.
 
 ---
 
