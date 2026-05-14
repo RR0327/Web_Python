@@ -15,7 +15,7 @@ Pyramid provides an optional security system that can identify the current user 
 
 ## 1. Authentication: “Who is the user?”
 
-Authentication means checking the user’s identity.
+`Authentication` means checking the user’s identity.
 
 Example:
 
