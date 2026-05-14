@@ -99,7 +99,7 @@ Student
 
 This style is called **ORM**.
 
-For more understanding is SQLAlchemy:
+For more understanding about SQLAlchemy:
 
 ([SQLAlchemy - The Database Toolkit for Python][5])
 
@@ -139,6 +139,16 @@ one student object  → one row in database
 ```
 
 So ORM helps you think in Python instead of only SQL.
+
+For more understanding about ORM:
+
+([Object Relational Mappers (ORMS) - FullStackPython][10])
+
+([ORMS For Python][11])
+
+([What is an ORM – The Meaning of Object Relational Mapping Database Tools][12])
+
+([ORM Explained: SQLAlchemy Fundamentals for Beginners (Python 2026)][13])
 
 ---
 
@@ -568,3 +578,7 @@ Student Management App
 [7]: https://www.geeksforgeeks.org/python/sqlalchemy-introduction/ "SQLAlchemy-Introduction - Geeksforgeeks"
 [8]: https://www.edx.org/learn/sqlalchemy "SQLAlchemy - EDX"
 [9]: https://www.youtube.com/shorts/1kO0v-jvjgg "What is SQLAlchemy"
+[10]: https://www.fullstackpython.com/object-relational-mappers-orms.html "Object-Relational-Mappers-ORMS - fullstackpython"
+[11]: https://github.com/vajol/python-data-engineering-resources/blob/main/resources/orms-for-python.md "ORMS-For-Python"
+[12]: https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/ "What is an ORM – The Meaning of Object Relational Mapping Database Tools"
+[13]: https://www.youtube.com/watch?v=eeluKtkDjJw "ORM Explained: SQLAlchemy Fundamentals for Beginners (Python 2026)"
