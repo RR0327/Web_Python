@@ -180,13 +180,13 @@ Only users with "edit" permission can open the edit page.
 
 ## 7. What is ACL?
 
-ACL means:
+**ACL** means:
 
 ```text
 Access Control List
 ```
 
-It is a list of rules that says who can do what.
+**It is a list of rules that says who can do what.**
 
 Example:
 
