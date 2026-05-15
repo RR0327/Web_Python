@@ -328,7 +328,7 @@ Permission denied
 
 ## 12. Example Scenario: Student Management App
 
-Suppose we build a Pyramid Student Management System.
+Suppose we build a **Pyramid Student Management System**.
 
 Pages:
 
@@ -341,7 +341,7 @@ Pages:
 /admin/users
 ```
 
-Security design:
+**Security design:**
 
 ```text
 Everyone:
