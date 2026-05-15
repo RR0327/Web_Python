@@ -211,7 +211,7 @@ Deny others → restricted
 
 ## 8. Everyone vs Authenticated
 
-Pyramid commonly uses these two ideas:
+Pyramid commonly uses these **two** ideas:
 
 ```text
 Everyone = any visitor, even not logged in
