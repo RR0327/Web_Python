@@ -87,3 +87,18 @@ View: Returns "Hello, World!" message.
 - View a specific post.
 
 This would give you a great start without overwhelming you with too many things at once.
+
+> Before project, your final learning checklist should be:
+
+- Pyramid architecture
+- Request-response cycle
+- Routes and views
+- Database basics
+- Authentication and authorization
+- Templates
+- Static files
+- Forms and user input
+- Sessions and cookies
+- Project structure
+- Configuration files
+- Error handling
