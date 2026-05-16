@@ -2,12 +2,12 @@
 
 This note covers the six important Pyramid concepts you should understand before starting a real project:
 
-1. Templates
-2. Static files
-3. Forms and user input
-4. Sessions and cookies
-5. Project structure
-6. Error handling
+1. **Templates**
+2. **Static files**
+3. **Forms and user input**
+4. **Sessions and cookies**
+5. **Project structure**
+6. **Error handling**
 
 The goal is not to start coding yet. The goal is to understand what each part does, why it matters, and how these parts connect inside a Pyramid web application.
 
