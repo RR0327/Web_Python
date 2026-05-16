@@ -17,14 +17,14 @@ The goal is not to start coding yet. The goal is to understand what each part do
 
 ## 1.1 What is a template?
 
-A template is a file used to create the visible webpage that the user sees in the browser.
+A **template** is a file used to create the visible webpage that the user sees in the browser.
 
-In a web application, we usually separate two things:
+In a web application, we usually separate **two** things:
 
-- Python logic
-- HTML design
+- `Python logic`
+- `HTML design`
 
-The Python logic decides what data should be shown. The template decides how that data should look on the webpage.
+The `Python logic` **decides what data should be shown**. The `template` **decides how that data should look on the webpage**.
 
 Simple idea:
 
