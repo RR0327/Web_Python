@@ -60,13 +60,13 @@ Browser displays the page
 
 Without templates, you would have to write HTML directly inside Python code. That becomes messy.
 
-Bad style concept:
+**Bad** style concept:
 
 ```text
 Python code + HTML code mixed together = hard to maintain
 ```
 
-Better style:
+**Better** style:
 
 ```text
 Python file → logic
