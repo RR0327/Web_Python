@@ -77,7 +77,7 @@ This makes the project cleaner.
 
 ## 1.3 Common template engines in Pyramid
 
-Pyramid can work with different template engines. Two common ones are:
+Pyramid can work with different template engines. **Two** common ones are:
 
 ```text
 Jinja2
@@ -91,6 +91,93 @@ So for learning, you can think:
 ```text
 Pyramid + Jinja2 = good beginner-friendly combination
 ```
+
+Let's explore more about **Jinja2** and **Chameleon**.
+
+## Jinja2 vs Chameleon
+
+| Feature    | Jinja2                 | Chameleon                        |
+| ---------- | ---------------------- | -------------------------------- |
+| Popularity | Very popular           | Less common                      |
+| Style      | Flexible, easy to read | More HTML/XML-focused            |
+| Speed      | Fast                   | Very fast                        |
+| Best for   | General web templates  | Pyramid-style HTML/XML templates |
+
+### Example
+
+**Jinja2**
+
+```html
+<h1>Hello, {{ name }}</h1>
+```
+
+**Chameleon**
+
+```html
+<h1>Hello, ${name}</h1>
+```
+
+### Simple meaning
+
+- **Jinja2**: easier and widely used
+- **Chameleon**: good for clean HTML/XML templates and works very well with Pyramid
+
+## Pyramid template examples
+
+### Jinja2
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h1>Hello, {{ name }}</h1>
+  </body>
+</html>
+```
+
+### Chameleon
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>${title}</title>
+  </head>
+  <body>
+    <h1>Hello, ${name}</h1>
+  </body>
+</html>
+```
+
+## In Pyramid view
+
+### Jinja2 view
+
+```python
+from pyramid.view import view_config
+
+@view_config(route_name='home', renderer='templates/home.jinja2')
+def home_view(request):
+    return {'title': 'Home Page', 'name': 'Alice'}
+```
+
+### Chameleon view
+
+```python
+from pyramid.view import view_config
+
+@view_config(route_name='home', renderer='templates/home.pt')
+def home_view(request):
+    return {'title': 'Home Page', 'name': 'Alice'}
+```
+
+## Main difference
+
+- **Jinja2** uses `{{ variable }}`
+- **Chameleon** often uses `${variable}`
 
 ## 1.4 What does a template contain?
 
