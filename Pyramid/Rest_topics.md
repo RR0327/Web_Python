@@ -277,7 +277,7 @@ In Pyramid, the view prepares the data, and the template presents the data.
 
 ## 2.1 What are static files?
 
-Static files are files that do not change dynamically for each request.
+`Static files` are **files that do not change dynamically for each request.**
 
 Examples:
 
