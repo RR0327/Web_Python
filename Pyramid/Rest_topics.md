@@ -303,7 +303,7 @@ main.js
 
 ## 2.2 Why are static files needed?
 
-Templates create the webpage structure, but static files make the webpage beautiful and interactive.
+`Templates` **create the webpage structure**, but `static files`**make the webpage beautiful and interactive.**
 
 Example:
 
@@ -314,7 +314,7 @@ JavaScript = page behavior
 Images = visual content
 ```
 
-Without static files, a website may still work, but it will look plain.
+**Without static files, a website may still work, but it will look plain.**
 
 ## 2.3 Static files vs templates
 
