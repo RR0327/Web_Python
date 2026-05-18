@@ -193,7 +193,7 @@ Conditions
 Reusable layout blocks
 ```
 
-Example idea, not full coding:
+Example
 
 ```text
 Show user name: {{ user_name }}
@@ -204,14 +204,13 @@ Show logout button if user is logged in
 
 ## 1.5 What is dynamic content?
 
-Dynamic content means content that changes depending on data.
+`Dynamic content` means **content that changes depending on data**.
 
 Example:
 
 ```text
 Hello, Rakib
 Hello, Hasan
-Hello, Ayesha
 ```
 
 The HTML layout may be the same, but the name changes.
