@@ -215,7 +215,7 @@ Hello, Hasan
 
 The HTML layout may be the same, but the name changes.
 
-In Pyramid:
+In **Pyramid**:
 
 ```text
 View sends data → template displays that data
@@ -223,9 +223,9 @@ View sends data → template displays that data
 
 ## 1.6 Template inheritance
 
-Template inheritance means one main layout can be reused across many pages.
+`Template inheritance` means **one main layout can be reused across many pages**.
 
-Example:
+Example
 
 ```text
 base template
@@ -247,7 +247,7 @@ JavaScript link
 
 Then each page only changes the main content area.
 
-This avoids repeating the same HTML again and again.
+**This avoids repeating the same HTML again and again.**
 
 ## 1.7 Where templates fit in Pyramid architecture
 
