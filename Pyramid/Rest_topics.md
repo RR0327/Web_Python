@@ -538,14 +538,14 @@ POST = send data
 
 ## 3.6 How Pyramid receives user input
 
-In Pyramid, the request object carries user input.
+In **Pyramid**, the request object carries user input.
 
 Common request data sources:
 
 ```text
-request.GET      → data from URL query string
-request.POST     → data from POST form body
-request.params   → combined GET and POST parameters
+request.GET       → data from URL query string
+request.POST      → data from POST form body
+request.params    → combined GET and POST parameters
 request.matchdict → dynamic values from route pattern
 ```
 
@@ -567,11 +567,11 @@ Then:
 id = 10
 ```
 
-That value is route input, not form input.
+That value is **route input**, not **form input**.
 
 ## 3.7 Form validation
 
-Validation means checking whether user input is correct before using or saving it.
+`Validation` means **checking whether user input is correct before using or saving it.**
 
 Example rules:
 
