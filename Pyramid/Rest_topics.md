@@ -583,7 +583,7 @@ Age must be a number
 Phone number must be valid
 ```
 
-Why validation is important:
+Why `validation` is important:
 
 ```text
 Prevents bad data
@@ -594,9 +594,9 @@ Helps security
 
 ## 3.8 Server-side validation vs client-side validation
 
-Client-side validation happens in the browser, usually with HTML or JavaScript.
+`Client-side validation` **happens in the browser, usually with HTML or JavaScript.**
 
-Server-side validation happens in Pyramid/Python.
+`Server-side validation` **happens in Pyramid/Python.**
 
 Important:
 
@@ -604,11 +604,11 @@ Important:
 Never trust only client-side validation.
 ```
 
-Why?
+> Why?
 
-Because users can bypass browser validation.
+Because users can **bypass browser validation.**
 
-So serious validation must happen on the server side.
+So _serious validation_ must happen on the **server side.**
 
 ## 3.9 Form processing flow in Pyramid
 
