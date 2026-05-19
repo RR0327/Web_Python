@@ -379,7 +379,7 @@ This makes files organized.
 
 ## 2.6 Common mistake with static files
 
-A common beginner mistake is writing wrong paths.
+**A common beginner mistake is writing wrong paths.**
 
 Example problem:
 
@@ -387,7 +387,7 @@ Example problem:
 CSS file exists, but browser shows 404 Not Found
 ```
 
-This usually means Pyramid is not configured to serve that static directory, or the template uses the wrong static file path.
+This usually means **Pyramid is not configured to serve that static directory, or the template uses the wrong static file path.**
 
 ## 2.7 Where static files fit in Pyramid architecture
 
@@ -401,7 +401,7 @@ Browser requests static files
 Pyramid serves them from static folder
 ```
 
-Memory line:
+> Memory line:
 
 ```text
 Templates create the page, static files make the page look and behave better.
