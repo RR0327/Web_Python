@@ -458,7 +458,7 @@ Data may be saved in database
 
 ## 3.3 GET request
 
-GET is usually used to request or search data.
+`GET` is usually **used to request or search data.**
 
 Example:
 
@@ -486,7 +486,7 @@ URL becomes /search?keyword=Python
 Pyramid reads keyword from request.GET or request.params
 ```
 
-GET should not usually be used for sensitive data like passwords because query parameters can appear in the browser address bar.
+_`GET` should not usually be used for sensitive data like `passwords` because query parameters can appear in the browser address bar._
 
 ## 3.4 POST request
 
