@@ -413,7 +413,7 @@ Templates create the page, static files make the page look and behave better.
 
 ## 3.1 What is a form?
 
-A form is a way for users to send data to the web application.
+A `form` is **a way for users to send data to the web application.**
 
 Examples:
 
