@@ -490,7 +490,7 @@ _`GET` should not usually be used for sensitive data like `passwords` because qu
 
 ## 3.4 POST request
 
-POST is usually used to submit data that may change something.
+`POST` is usually **used to submit data that may change something.**
 
 Common uses:
 
@@ -503,7 +503,7 @@ Delete confirmation
 Contact form submission
 ```
 
-In POST, data is sent in the request body instead of mainly in the URL.
+**In POST, data is sent in the request body instead of mainly in the URL.**
 
 Example:
 
