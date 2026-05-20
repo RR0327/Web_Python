@@ -644,7 +644,7 @@ Forms collect user input; Pyramid views receive, validate, and process that inpu
 
 ## 4.1 What is a cookie?
 
-A cookie is a small piece of data stored in the user’s browser.
+A `cookie` is a **small piece of data stored in the user’s browser.**
 
 Example uses:
 
