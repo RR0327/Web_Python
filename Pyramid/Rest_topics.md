@@ -688,7 +688,7 @@ Cookies and sessions
 
 ## 4.3 What is a session?
 
-A session is temporary stored information about a user’s interaction with a web application.
+A `session` is **temporary stored information about a user’s interaction with a web application.**
 
 Example session data:
 
@@ -702,7 +702,7 @@ User role
 
 Simple idea:
 
-```text
+```bash
 Cookie helps identify the browser.
 Session stores temporary user-related data.
 ```
@@ -718,9 +718,9 @@ Session stores temporary user-related data.
 
 ## 4.5 Pyramid session idea
 
-Pyramid supports sessions, and one common simple option is signed cookie-based sessions.
+Pyramid supports sessions, and one common simple option is `signed cookie-based sessions`.
 
-Signed means the cookie has a cryptographic signature. This helps Pyramid detect tampering.
+`Signed` means **the cookie has a cryptographic signature.** **This helps Pyramid detect tampering.**
 
 Important idea:
 
@@ -729,7 +729,7 @@ Signed does not mean secret/encrypted.
 Signed means tamper-detection.
 ```
 
-So do not store highly sensitive data directly in a cookie-based session.
+_So do not store highly sensitive data directly in a cookie-based session._
 
 Better session data:
 
@@ -750,7 +750,7 @@ sensitive documents
 
 ## 4.6 Sessions in login system
 
-Login flow with session:
+**Login flow with session:**
 
 ```text
 User submits login form
@@ -766,7 +766,7 @@ Next request includes cookie
 Pyramid knows user is logged in
 ```
 
-Logout flow:
+**Logout flow:**
 
 ```text
 User clicks logout
@@ -778,7 +778,7 @@ User becomes logged out
 
 ## 4.7 Flash messages
 
-A flash message is a temporary message shown once.
+A `flash message` is a **temporary message shown once.**
 
 Examples:
 
@@ -789,7 +789,7 @@ Invalid password
 Profile updated
 ```
 
-Flow:
+**Flow:**
 
 ```text
 View creates flash message
@@ -801,7 +801,7 @@ Template shows flash message
 Message disappears after display
 ```
 
-Flash messages are commonly stored using session support.
+**Flash messages** are commonly **stored using session support.**
 
 ## 4.8 Where sessions fit in Pyramid architecture
 
@@ -831,7 +831,7 @@ Cookies help the browser carry identity, and sessions help Pyramid remember temp
 
 ## 5.1 Why project structure matters
 
-Project structure means how you organize files and folders.
+`Project structure` means **how you organize files and folders.**
 
 When a project is small, bad structure may not feel like a problem. But when the project grows, bad structure creates confusion.
 
@@ -893,6 +893,50 @@ myproject/
 └── tests/
     └── test_views.py
 ```
+
+> Explanation
+
+| Category                     | File / Folder                         | Purpose / Meaning                                                                 |
+| ---------------------------- | ------------------------------------- | --------------------------------------------------------------------------------- |
+| **Configuration Files**      | `development.ini`                     | Settings for local development such as debug mode, server port, and database URL. |
+|                              | `production.ini`                      | Settings for running the app in live/production mode.                             |
+|                              | `pyproject.toml` / `setup.py`         | Project package information, dependencies, and installation configuration.        |
+| **Main App Files**           | `myproject/__init__.py`               | Creates, starts, and configures the Pyramid application.                          |
+|                              | `myproject/routes.py`                 | Stores all route names and URL paths in one place.                                |
+|                              | `myproject/views/__init__.py`         | Makes the `views` folder a Python package.                                        |
+|                              | `myproject/views/home.py`             | Contains view functions/code for the home page.                                   |
+|                              | `myproject/views/students.py`         | Contains view functions/code for student-related pages.                           |
+| **Database / Models**        | `myproject/models/__init__.py`        | Makes the `models` folder a Python package.                                       |
+|                              | `myproject/models/meta.py`            | Database setup, metadata, and model base configuration.                           |
+|                              | `myproject/models/student.py`         | Defines the student database table/model.                                         |
+| **Templates**                | `myproject/templates/base.jinja2`     | Common layout/template shared by multiple pages.                                  |
+|                              | `myproject/templates/home.jinja2`     | HTML template for the home page.                                                  |
+|                              | `myproject/templates/students.jinja2` | HTML template for the students page.                                              |
+| **Static Files**             | `myproject/static/css/style.css`      | CSS styling for the website.                                                      |
+|                              | `myproject/static/js/main.js`         | JavaScript for page behavior and interactivity.                                   |
+|                              | `myproject/static/images/logo.png`    | Image file used in the website, such as a logo.                                   |
+| **Testing**                  | `tests/test_views.py`                 | Tests for checking whether views/pages work correctly.                            |
+| **Very Simple Pyramid Idea** | **Routes**                            | Decide which URL opens which page.                                                |
+|                              | **Views**                             | Handle requests and control page logic.                                           |
+|                              | **Models**                            | Manage database tables and data.                                                  |
+|                              | **Templates**                         | Store HTML page designs.                                                          |
+|                              | **Static**                            | Store CSS, JavaScript, and images.                                                |
+|                              | **INI Files**                         | Store application settings and configurations.                                    |
+
+> ### **`.ini` and `.toml`**
+
+- **`.ini`** means a **settings/configuration file**.
+- It is used to store app options like **server, database, debug, and environment settings**.
+
+- **`.toml`** means **Tom’s Obvious, Minimal Language**.
+- It is also a **configuration file**, often used for **project setup, dependencies, and package info**.
+
+**Simple difference:**
+
+- `.ini` = app/runtime settings
+- `.toml` = project/package settings
+
+---
 
 ## 5.4 Meaning of each part
 
