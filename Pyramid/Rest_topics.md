@@ -663,9 +663,9 @@ Server sends cookie → browser stores it → browser sends it back on future re
 
 ## 4.2 Why cookies are needed
 
-HTTP is stateless.
+**HTTP is `stateless`.**
 
-Stateless means:
+`Stateless` means:
 
 ```text
 Each request is independent.
