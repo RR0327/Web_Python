@@ -933,8 +933,8 @@ myproject/
 
 **Simple difference:**
 
-- `.ini` = app/runtime settings
-- `.toml` = project/package settings
+- `.ini` = **app/runtime settings**
+- `.toml` = **project/package settings**
 
 ---
 
