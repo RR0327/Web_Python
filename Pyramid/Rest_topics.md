@@ -969,7 +969,7 @@ Logging settings
 
 ### **init**.py
 
-This is often where the Pyramid application is configured and created.
+This is often where the **Pyramid application is configured and created**.
 
 It may include:
 
