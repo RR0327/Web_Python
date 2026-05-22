@@ -909,19 +909,19 @@ myproject/
 | **Database / Models**        | `myproject/models/__init__.py`        | _Makes the `models` folder a Python package._                                               |
 |                              | `myproject/models/meta.py`            | _**Database setup**, **metadata**, and **model base configuration**._                       |
 |                              | `myproject/models/student.py`         | _Defines the student database table/model._                                                 |
-| **Templates**                | `myproject/templates/base.jinja2`     | Common layout/template shared by multiple pages.                                            |
-|                              | `myproject/templates/home.jinja2`     | HTML template for the home page.                                                            |
-|                              | `myproject/templates/students.jinja2` | HTML template for the students page.                                                        |
-| **Static Files**             | `myproject/static/css/style.css`      | CSS styling for the website.                                                                |
-|                              | `myproject/static/js/main.js`         | JavaScript for page behavior and interactivity.                                             |
-|                              | `myproject/static/images/logo.png`    | Image file used in the website, such as a logo.                                             |
-| **Testing**                  | `tests/test_views.py`                 | Tests for checking whether views/pages work correctly.                                      |
-| **Very Simple Pyramid Idea** | **Routes**                            | Decide which URL opens which page.                                                          |
-|                              | **Views**                             | Handle requests and control page logic.                                                     |
-|                              | **Models**                            | Manage database tables and data.                                                            |
-|                              | **Templates**                         | Store HTML page designs.                                                                    |
-|                              | **Static**                            | Store CSS, JavaScript, and images.                                                          |
-|                              | **INI Files**                         | Store application settings and configurations.                                              |
+| **Templates**                | `myproject/templates/base.jinja2`     | _Common layout/template shared by multiple pages._                                          |
+|                              | `myproject/templates/home.jinja2`     | _HTML template_ for the _home page._                                                        |
+|                              | `myproject/templates/students.jinja2` | _HTML template_ for the _students page._                                                    |
+| **Static Files**             | `myproject/static/css/style.css`      | _CSS styling for the website._                                                              |
+|                              | `myproject/static/js/main.js`         | _JavaScript for page behavior and interactivity._                                           |
+|                              | `myproject/static/images/logo.png`    | _Image file used in the website, such as a logo._                                           |
+| **Testing**                  | `tests/test_views.py`                 | _Tests for checking whether **views/pages work correctly**._                                |
+| **Very Simple Pyramid Idea** | **Routes**                            | _Decide which URL opens which page._                                                        |
+|                              | **Views**                             | _Handle requests and control page logic._                                                   |
+|                              | **Models**                            | _Manage database tables and data._                                                          |
+|                              | **Templates**                         | _Store HTML page designs._                                                                  |
+|                              | **Static**                            | _Store CSS, JavaScript, and images._                                                        |
+|                              | **INI Files**                         | _Store **application settings** and **configurations**._                                    |
 
 > ### **`.ini` and `.toml`**
 
