@@ -906,9 +906,9 @@ myproject/
 |                              | `myproject/views/__init__.py`         | _Makes the `views` folder a Python package._                                                |
 |                              | `myproject/views/home.py`             | _Contains view functions/code for the **home page**._                                       |
 |                              | `myproject/views/students.py`         | _Contains view functions/code for **student-related pages**._                               |
-| **Database / Models**        | `myproject/models/__init__.py`        | Makes the `models` folder a Python package.                                                 |
-|                              | `myproject/models/meta.py`            | Database setup, metadata, and model base configuration.                                     |
-|                              | `myproject/models/student.py`         | Defines the student database table/model.                                                   |
+| **Database / Models**        | `myproject/models/__init__.py`        | _Makes the `models` folder a Python package._                                               |
+|                              | `myproject/models/meta.py`            | _**Database setup**, **metadata**, and **model base configuration**._                       |
+|                              | `myproject/models/student.py`         | _Defines the student database table/model._                                                 |
 | **Templates**                | `myproject/templates/base.jinja2`     | Common layout/template shared by multiple pages.                                            |
 |                              | `myproject/templates/home.jinja2`     | HTML template for the home page.                                                            |
 |                              | `myproject/templates/students.jinja2` | HTML template for the students page.                                                        |
