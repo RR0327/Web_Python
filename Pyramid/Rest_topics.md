@@ -984,7 +984,7 @@ Security setup
 
 ### routes.py
 
-This file can contain route definitions.
+This file can **contain route definitions.**
 
 Example idea:
 
@@ -996,7 +996,7 @@ Example idea:
 
 ### views/
 
-This folder contains Python view logic.
+This folder **contains Python view logic.**
 
 Example:
 
@@ -1008,7 +1008,7 @@ auth.py → login/logout logic
 
 ### models/
 
-This folder contains database models.
+This folder **contains database models.**
 
 Example:
 
@@ -1020,7 +1020,7 @@ post.py → Post table/model
 
 ### templates/
 
-This folder contains HTML template files.
+This folder **contains HTML template files.**
 
 Example:
 
