@@ -899,13 +899,13 @@ myproject/
 | Category                     | File / Folder                         | Purpose / Meaning                                                                           |
 | ---------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Configuration Files**      | `development.ini`                     | **Settings for local development** such as _debug mode_, _server port_, and d*atabase URL.* |
-|                              | `production.ini`                      | **Settings for running the app in live/production mode.**                                   |
-|                              | `pyproject.toml` / `setup.py`         | **Project package information, dependencies, and installation configuration.**              |
-| **Main App Files**           | `myproject/__init__.py`               | Creates, starts, and configures the Pyramid application.                                    |
-|                              | `myproject/routes.py`                 | Stores all route names and URL paths in one place.                                          |
-|                              | `myproject/views/__init__.py`         | Makes the `views` folder a Python package.                                                  |
-|                              | `myproject/views/home.py`             | Contains view functions/code for the home page.                                             |
-|                              | `myproject/views/students.py`         | Contains view functions/code for student-related pages.                                     |
+|                              | `production.ini`                      | **Settings for running the app** in _live/production mode._                                 |
+|                              | `pyproject.toml` / `setup.py`         | **Project package information, dependencies, and installation configuration.** `            |
+| **Main App Files**           | `myproject/__init__.py`               | **Creates, starts, and configures** the _Pyramid application._                              |
+|                              | `myproject/routes.py`                 | **Stores all route names and URL paths** in _one place._                                    |
+|                              | `myproject/views/__init__.py`         | _Makes the `views` folder a Python package._                                                |
+|                              | `myproject/views/home.py`             | _Contains view functions/code for the **home page**._                                       |
+|                              | `myproject/views/students.py`         | _Contains view functions/code for **student-related pages**._                               |
 | **Database / Models**        | `myproject/models/__init__.py`        | Makes the `models` folder a Python package.                                                 |
 |                              | `myproject/models/meta.py`            | Database setup, metadata, and model base configuration.                                     |
 |                              | `myproject/models/student.py`         | Defines the student database table/model.                                                   |
