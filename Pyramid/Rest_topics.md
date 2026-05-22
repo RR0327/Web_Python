@@ -938,11 +938,11 @@ myproject/
 
 ---
 
-## 5.4 Meaning of each part
+## 5.4 Meaning of each part Deeply with proper Explanation
 
 ### development.ini
 
-Used for local development settings.
+**Used for `local development settings`.**
 
 Example responsibilities:
 
@@ -956,7 +956,7 @@ Template reload settings
 
 ### production.ini
 
-Used for real deployment settings.
+**Used for `real deployment settings`.**
 
 Example responsibilities:
 
