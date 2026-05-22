@@ -896,32 +896,32 @@ myproject/
 
 > Explanation
 
-| Category                     | File / Folder                         | Purpose / Meaning                                                                 |
-| ---------------------------- | ------------------------------------- | --------------------------------------------------------------------------------- |
-| **Configuration Files**      | `development.ini`                     | Settings for local development such as debug mode, server port, and database URL. |
-|                              | `production.ini`                      | Settings for running the app in live/production mode.                             |
-|                              | `pyproject.toml` / `setup.py`         | Project package information, dependencies, and installation configuration.        |
-| **Main App Files**           | `myproject/__init__.py`               | Creates, starts, and configures the Pyramid application.                          |
-|                              | `myproject/routes.py`                 | Stores all route names and URL paths in one place.                                |
-|                              | `myproject/views/__init__.py`         | Makes the `views` folder a Python package.                                        |
-|                              | `myproject/views/home.py`             | Contains view functions/code for the home page.                                   |
-|                              | `myproject/views/students.py`         | Contains view functions/code for student-related pages.                           |
-| **Database / Models**        | `myproject/models/__init__.py`        | Makes the `models` folder a Python package.                                       |
-|                              | `myproject/models/meta.py`            | Database setup, metadata, and model base configuration.                           |
-|                              | `myproject/models/student.py`         | Defines the student database table/model.                                         |
-| **Templates**                | `myproject/templates/base.jinja2`     | Common layout/template shared by multiple pages.                                  |
-|                              | `myproject/templates/home.jinja2`     | HTML template for the home page.                                                  |
-|                              | `myproject/templates/students.jinja2` | HTML template for the students page.                                              |
-| **Static Files**             | `myproject/static/css/style.css`      | CSS styling for the website.                                                      |
-|                              | `myproject/static/js/main.js`         | JavaScript for page behavior and interactivity.                                   |
-|                              | `myproject/static/images/logo.png`    | Image file used in the website, such as a logo.                                   |
-| **Testing**                  | `tests/test_views.py`                 | Tests for checking whether views/pages work correctly.                            |
-| **Very Simple Pyramid Idea** | **Routes**                            | Decide which URL opens which page.                                                |
-|                              | **Views**                             | Handle requests and control page logic.                                           |
-|                              | **Models**                            | Manage database tables and data.                                                  |
-|                              | **Templates**                         | Store HTML page designs.                                                          |
-|                              | **Static**                            | Store CSS, JavaScript, and images.                                                |
-|                              | **INI Files**                         | Store application settings and configurations.                                    |
+| Category                     | File / Folder                         | Purpose / Meaning                                                                           |
+| ---------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Configuration Files**      | `development.ini`                     | **Settings for local development** such as _debug mode_, _server port_, and d*atabase URL.* |
+|                              | `production.ini`                      | **Settings for running the app in live/production mode.**                                   |
+|                              | `pyproject.toml` / `setup.py`         | **Project package information, dependencies, and installation configuration.**              |
+| **Main App Files**           | `myproject/__init__.py`               | Creates, starts, and configures the Pyramid application.                                    |
+|                              | `myproject/routes.py`                 | Stores all route names and URL paths in one place.                                          |
+|                              | `myproject/views/__init__.py`         | Makes the `views` folder a Python package.                                                  |
+|                              | `myproject/views/home.py`             | Contains view functions/code for the home page.                                             |
+|                              | `myproject/views/students.py`         | Contains view functions/code for student-related pages.                                     |
+| **Database / Models**        | `myproject/models/__init__.py`        | Makes the `models` folder a Python package.                                                 |
+|                              | `myproject/models/meta.py`            | Database setup, metadata, and model base configuration.                                     |
+|                              | `myproject/models/student.py`         | Defines the student database table/model.                                                   |
+| **Templates**                | `myproject/templates/base.jinja2`     | Common layout/template shared by multiple pages.                                            |
+|                              | `myproject/templates/home.jinja2`     | HTML template for the home page.                                                            |
+|                              | `myproject/templates/students.jinja2` | HTML template for the students page.                                                        |
+| **Static Files**             | `myproject/static/css/style.css`      | CSS styling for the website.                                                                |
+|                              | `myproject/static/js/main.js`         | JavaScript for page behavior and interactivity.                                             |
+|                              | `myproject/static/images/logo.png`    | Image file used in the website, such as a logo.                                             |
+| **Testing**                  | `tests/test_views.py`                 | Tests for checking whether views/pages work correctly.                                      |
+| **Very Simple Pyramid Idea** | **Routes**                            | Decide which URL opens which page.                                                          |
+|                              | **Views**                             | Handle requests and control page logic.                                                     |
+|                              | **Models**                            | Manage database tables and data.                                                            |
+|                              | **Templates**                         | Store HTML page designs.                                                                    |
+|                              | **Static**                            | Store CSS, JavaScript, and images.                                                          |
+|                              | **INI Files**                         | Store application settings and configurations.                                              |
 
 > ### **`.ini` and `.toml`**
 
