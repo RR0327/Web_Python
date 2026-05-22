@@ -1032,7 +1032,7 @@ students.jinja2 → student list page
 
 ### static/
 
-This folder contains static files.
+This folder **contains static files.**
 
 Example:
 
@@ -1045,9 +1045,9 @@ Icons
 
 ### tests/
 
-This folder contains test files.
+This folder **contains test files.**
 
-Testing helps verify that routes, views, models, and logic work correctly.
+_`Testing` helps **verify that routes**, **views**, **models**, and **logic work correctly.**_
 
 ## 5.5 How files communicate
 
