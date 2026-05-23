@@ -1098,9 +1098,9 @@ A good Pyramid project separates routes, views, models, templates, static files,
 
 ## 6.1 What is error handling?
 
-Error handling means controlling what happens when something goes wrong.
+`Error handling` means **controlling what happens when something goes wrong.**
 
-In web applications, errors are normal. A good app should not crash badly or show confusing technical messages to users.
+In _web applications_, **errors are normal**. A good app should not crash badly or show confusing technical messages to users.
 
 Instead, it should show friendly error pages and log technical details for developers.
 
@@ -1108,7 +1108,7 @@ Instead, it should show friendly error pages and log technical details for devel
 
 ### 404 Not Found
 
-Means the requested page or route does not exist.
+_Means the requested page or route does not exist._
 
 Example:
 
@@ -1126,7 +1126,7 @@ Sorry, this page was not found.
 
 ### 403 Forbidden
 
-Means the user is not allowed to access the page.
+_Means the user is not allowed to access the page._
 
 Example:
 
@@ -1145,7 +1145,7 @@ You do not have permission to access this page.
 
 ### 500 Internal Server Error
 
-Means something went wrong inside the server/app code.
+_Means something went wrong inside the server/app code._
 
 Example causes:
 
@@ -1203,7 +1203,7 @@ Example idea:
 
 ## 6.5 Error handling flow
 
-Example: 404 flow
+Example: `404 flow`
 
 ```text
 User requests wrong URL
@@ -1217,7 +1217,7 @@ Pyramid calls Not Found view
 User sees friendly page
 ```
 
-Example: 403 flow
+Example: `403 flow`
 
 ```text
 User requests protected page
@@ -1231,7 +1231,7 @@ Pyramid calls Forbidden view
 User sees access denied page
 ```
 
-Example: 500 flow
+Example: `500 flow`
 
 ```text
 User requests page
@@ -1260,7 +1260,7 @@ Variable problem
 
 But in production, users should not see detailed technical errors.
 
-Why?
+> ## Why?
 
 Because detailed errors may reveal:
 
