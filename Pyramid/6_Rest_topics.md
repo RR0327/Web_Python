@@ -1281,7 +1281,7 @@ Production = friendly error for user
 
 ## 6.7 Logging
 
-Logging means saving information about what happened in the application.
+`Logging` means **saving information about what happened in the application.**
 
 Examples:
 
@@ -1292,9 +1292,9 @@ Page not found
 Unexpected exception occurred
 ```
 
-Logs help developers debug problems later.
+`Logs` help **developers debug problems later.**
 
-Good error handling usually means:
+**Good error handling** usually means:
 
 ```text
 Show friendly message to user
@@ -1311,9 +1311,9 @@ Error handling makes the app safe, user-friendly, and easier to debug.
 
 # Combined Big Picture
 
-Now connect all six concepts together.
+Now connect all **six** concepts together.
 
-Suppose a user logs into a Pyramid student management system.
+Suppose a user logs into a **Pyramid student management system**.
 
 ```text
 User opens /login
