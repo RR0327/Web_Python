@@ -1067,7 +1067,7 @@ static/css/style.css styles the page
 
 ## 5.6 MVC idea in Pyramid
 
-Pyramid does not force classic MVC strictly, but you can understand it like this:
+_Pyramid does not force classic MVC strictly_, but you can understand it like this:
 
 ```text
 Model = database/data logic
@@ -1075,7 +1075,9 @@ View function = controller-like request handler
 Template = visual view shown to user
 ```
 
-In Pyramid naming, “view” means the Python callable that handles the request. This can confuse beginners because in MVC, “view” often means the HTML template.
+In **Pyramid** naming, “`view`” means the **Python callable that handles the request.**
+
+_This can confuse beginners because in MVC, “`view`” often means the HTML template._
 
 So remember:
 
