@@ -1349,7 +1349,7 @@ This shows how all concepts work together.
 
 ## Templates
 
-Templates display dynamic HTML pages.
+`Templates` **display dynamic HTML pages.**
 
 ```text
 View prepares data → template shows data
@@ -1357,7 +1357,7 @@ View prepares data → template shows data
 
 ## Static files
 
-Static files provide CSS, JavaScript, images, and other fixed resources.
+`Static files` **provide CSS, JavaScript, images, and other fixed resources.**
 
 ```text
 Template creates structure → static files improve design and behavior
@@ -1365,7 +1365,7 @@ Template creates structure → static files improve design and behavior
 
 ## Forms and user input
 
-Forms allow users to send data to the application.
+`Forms` allow **users to send data to the application.**
 
 ```text
 User input → request object → view validation → processing/database
@@ -1373,7 +1373,7 @@ User input → request object → view validation → processing/database
 
 ## Sessions and cookies
 
-Sessions and cookies help the app remember users across requests.
+`Sessions` and `cookies` **help the app remember users across requests.**
 
 ```text
 Cookie carries identity → session stores temporary user state
@@ -1389,7 +1389,7 @@ routes, views, models, templates, static files, settings, tests
 
 ## Error handling
 
-Error handling controls what happens when something goes wrong.
+`Error handling` **controls what happens when something goes wrong.**
 
 ```text
 404 = page not found
@@ -1427,13 +1427,143 @@ Error handling catches problems
 
 # When You Are Ready for Project
 
-Before starting the project, you should be able to answer these questions:
+### 1. What is the difference between a view and a template in Pyramid?
 
-1. What is the difference between a view and a template in Pyramid?
-2. Why do we need static files?
-3. When should we use GET and when should we use POST?
-4. Why are sessions needed for login systems?
-5. What folders should a Pyramid project contain?
-6. What is the difference between 404, 403, and 500 errors?
+**Answer:**
 
-If you can answer these, you are ready to start a small Pyramid project.
+```text
+A view handles the request, prepares or processes data, and returns a response.
+A template is responsible for displaying that data as an HTML page.
+```
+
+Simple memory:
+
+```text
+View = logic
+Template = presentation
+```
+
+---
+
+### 2. Why do we need static files?
+
+**Answer:**
+
+```text
+Static files are needed to add design, behavior, and media to a web application.
+They include CSS, JavaScript, images, fonts, and icons.
+```
+
+Simple memory:
+
+```text
+Static files make the webpage look better and work better.
+```
+
+---
+
+### 3. When should we use GET and when should we use POST?
+
+**Answer:**
+
+```text
+GET is used when we want to retrieve or search data without changing anything.
+POST is used when we want to submit data, create data, update data, or perform an action.
+```
+
+Example:
+
+```text
+GET  → search student
+POST → add student
+```
+
+---
+
+### 4. Why are sessions needed for login systems?
+
+**Answer:**
+
+```text
+Sessions are needed because HTTP does not automatically remember users between requests.
+When a user logs in, the session stores temporary user state, such as the user ID, so the system can remember that the user is logged in while moving between pages.
+```
+
+Simple memory:
+
+```text
+Session helps the website remember the logged-in user.
+```
+
+---
+
+### 5. What folders should a Pyramid project contain?
+
+**Answer:**
+
+```text
+A Pyramid project usually contains folders or files for routes, views, models, templates, static files, configuration/settings, and tests.
+```
+
+More professional structure:
+
+```text
+views/
+models/
+templates/
+static/
+tests/
+routes.py
+__init__.py
+development.ini
+production.ini
+```
+
+Small note:
+`settings` is usually not always a folder. In Pyramid, settings are often stored in `.ini` files like `development.ini`.
+
+---
+
+### 6. What is the difference between 404, 403, and 500 errors?
+
+**Answer:**
+
+```text
+404 means the requested page or route was not found.
+403 means the user does not have permission to access the page.
+500 means an internal server error happened because of a problem in the application or server.
+```
+
+---
+
+## Final Judgment
+
+You are ready for a beginner project like:
+
+```text
+Student Management System
+Task Management App
+Simple Blog App
+Login-based Notes App
+```
+
+Best first Pyramid project for you would be:
+
+```text
+Student Management System
+```
+
+Because it will cover:
+
+```text
+Routes
+Views
+Templates
+Static files
+Forms
+Database
+Sessions
+Authentication
+Error handling
+CRUD
+```
