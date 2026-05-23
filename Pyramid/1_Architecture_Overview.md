@@ -1,8 +1,8 @@
 ### Pyramid Architecture Overview:
 
-![Pyramid Architecture Overview](Pyramid_Architecture_Overview.png)
+![Pyramid Architecture Overview](Images/Pyramid_Architecture_Overview.png)
 
-![Pyramid web framework architecture overview](Pyramid_web_framework_architecture_overview.png)
+![Pyramid web framework architecture overview](Images/Pyramid_web_framework_architecture_overview.png)
 
 Pyramid is designed to be lightweight, flexible, and modular. The core of Pyramid consists of several key components that work together to process requests and generate responses:
 
@@ -43,7 +43,7 @@ Pyramid is designed to be lightweight, flexible, and modular. The core of Pyrami
 
 ### The Request-Response Cycle in Pyramid:
 
-![Pyramid Request Response Cycle](Pyramid_Request_Response_Cycle.png)
+![Pyramid Request Response Cycle](Images/Pyramid_Request_Response_Cycle.png)
 
 Here’s how the request-response cycle works in Pyramid:
 

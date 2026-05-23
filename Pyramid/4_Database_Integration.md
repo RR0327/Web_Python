@@ -154,7 +154,7 @@ For more understanding about ORM:
 
 ## 5. Pyramid Database Flow
 
-![Pyramid Request/Response Flow](Pyramid_request_response_flow.png)
+![Pyramid Request/Response Flow](Images/Pyramid_request_response_flow.png)
 
 Here is the main working flow:
 
@@ -215,7 +215,7 @@ It means: **a user request goes from browser to database and then the result goe
 
 ## 6. Main Parts of Database Integration
 
-![MAIN PARTS OF DATABASE INTEGRATION](Main_parts_of_db_integration.png)
+![MAIN PARTS OF DATABASE INTEGRATION](Images/Main_parts_of_db_integration.png)
 
 To connect a database with Pyramid, you mainly need these parts:
 
